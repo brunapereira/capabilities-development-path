@@ -1,4 +1,4 @@
 # Índice
 
 * [Sobre](README.md)
-* [Entrega Contínua](Continuous_Delivery.md)
+* [Entrega Contínua](topics/Continuous_Delivery.md)
