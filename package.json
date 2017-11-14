@@ -1,0 +1,46 @@
+{
+  "name": "capabilities-development-path",
+  "version": "0.0.1",
+  "description": "Capabilities Development Path",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "test": "markdownlint --config lint.json *.md topics/*.md",
+    "generate-diff": "git diff origin/master *.md topics/*.md | grep -v '^-' || echo ''",
+    "check-link-diff": "npm run generate-diff | node scripts/markdownLinkCheck.js",
+    "check-link-local": "cat *.md topics/*.md | node scripts/markdownLinkCheck.js",
+    "watch": "onchange '**/*.md' -v -- npm test",
+    "deploy": "npm run build && gh-pages -d _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brunapereira/capabilities-path.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/brunapereira/capabilities-path/issues"
+  },
+  "homepage": "https://github.com/brunapereira/capabilities-path#readme",
+  "devDependencies": {
+    "gh-pages": "^0.11.0",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-advanced-emoji": "^0.2.1",
+    "gitbook-plugin-comment": "^1.0.5",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-git-author": "^1.1.2",
+    "gitbook-plugin-githubcontributors": "^0.1.1",
+    "gitbook-plugin-localized-footer": "^0.2.2",
+    "gitbook-plugin-simple-page-toc": "^0.1.0",
+    "gitbook-plugin-disqus": "0.1.0",
+    "react": "15.0.1",
+    "react-dom": "15.0.1",
+    "markdown-link-check": "^1.2.0",
+    "markdownlint-cli": "^0.2.0",
+    "onchange": "^2.5.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-ga": "^1.0.1"
+  }
+}
