@@ -34,10 +34,14 @@ Ajuda a melhorar a acuracidade e consistência, a colaborar mais.
 
 ### Auto avaliação
 
-1. Entendo o conceito de Entrega Contínua e Integração Contínua.
-2. Vejo riscos em projetos que implementam o Continuous Frustration.
-3. Reconheço testes automatizados como aliados para uma ida a produção
+* Entendo o conceito de Entrega Contínua e Integração Contínua.
+
+* Vejo riscos em projetos que implementam o Continuous Frustration.
+
+* Reconheço testes automatizados como aliados para uma ida a produção
 menos arriscada, vejo benefícios nisso.
-4. Entendo os diferentes tipos de testes automatizados que meu projeto pode ter.
-5. Vejo Metodologia Ágil e Entrega Contínua como dois conceitos relacionados,
+
+* Entendo os diferentes tipos de testes automatizados que meu projeto pode ter.
+
+* Vejo Metodologia Ágil e Entrega Contínua como dois conceitos relacionados,
 que se suportam para atingir um objetivo comum.
