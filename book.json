@@ -5,35 +5,16 @@
     "summary": "INDICE.md"
   },
   "plugins" : [
-    "disqus",
-    "ga",
-    "git-author",
     "githubcontributors",
-    "comment",
     "localized-footer",
     "simple-page-toc",
     "edit-link",
     "advanced-emoji"
   ],
   "pluginsConfig": {
-    "disqus": {
-        "shortName": "capabilitiesdevelopmentpath"
-    },
-    "ga": {
-      "token": "UA-86166823-1"
-    },
-    "git-author":{
-      "position": "bottom",
-      "modifyTpl": "Última modificação feita por {user}, {timeStamp}",
-      "createTpl": "Criada por {user}, {timeStamp}",
-      "timeStampFormat": "YYYY-MM-DD HH:mm:ss"
-    },
     "githubcontributors": {
       "githubOwner": "brunapereira",
       "githubRepository": "capabilities-development-path"
-    },
-    "localized-footer": {
-      "filename": "layouts/FOOTER.md"
     },
     "edit-link": {
       "base": "https://github.com/brunapereira/capabilities-development-path/blob/master",
