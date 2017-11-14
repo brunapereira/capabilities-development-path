@@ -30,7 +30,15 @@ Ajuda a melhorar a acuracidade e consistência, a colaborar mais.
 
 [Introdução a testes](https://thoughtworksinc.github.io/guia-de-desenvolvimento-tecnico/topics/Estrategia_de_Qualidade.html)
 
-### Desenvolvimento ágil
+### Metodologia Ágil
+
+O objetivo de aplicar metodologias ágeis em um time de desenvolvimento
+é fazer entregas incrementais, e assim entregar mais vezes. Quando falamos
+de Continuous Delivery, vamos um pouco além. Nós queremos que a qualquer
+momento o código esteja em um estado que possa ser entregue. Por isso,
+para que sejamos bem sucedido implementar Continuous Delivery, uma premissa é
+ter um time que tenha conhecimento, esteja confortável e aplicando de
+forma efetiva os conceitos ágeis no projeto.
 
 ### Auto avaliação
 
