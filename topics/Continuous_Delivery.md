@@ -53,3 +53,30 @@ menos arriscada, vejo benefícios nisso.
 
 * Vejo Metodologia Ágil e Entrega Contínua como dois conceitos relacionados,
 que se suportam para atingir um objetivo comum.
+
+## Level 2: Emergindo
+
+Cria testes unitários e funcionais para o seu software.
+Conhece basicamente algumas ferramentas de automação, inclusive de infraestrutura.
+Possui alguma compreensão sobre teorias por trás da entrega contínua.
+Evita o uso de branches de longa duração.
+Ainda associa o conceito de entrega contínua a DevOps e ferramentas de automação.
+
+### Recursos sobre como escrever testes / Tipos de testes
+
+### Automação de testes em algumas linguagens
+
+* Testes que geram feedback rápidos no momento de commit.
+
+### Integração continua
+
+* Long lived branches vs short lived branches vs trunk based development.
+* Disciplina de manter codigo sempre deployavel, acima de entregar features novas (testes passando, funcionalidades pequenas, feature toggles).
+
+### O que é uma ferramenta de CI/CD
+
+### Recurso sobre o que é entrega contínua
+
+### Evitar big design up front (menos documentação, mais conversa - benefícios do ágil)
+
+* lean.
