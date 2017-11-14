@@ -12,7 +12,14 @@ de implantação.  Confia apenas nos processos manuais de testes,
 uma vez que não desenvolve automações para estes.
 Produz software que depende de extensa documentação para implantação.
 
-### [O que é Entrega Contínua e Integração Contínua](https://thoughtworksinc.github.io/guia-de-desenvolvimento-tecnico/topics/Entrega_de_Software.html)
+### Entrega Contínua e Integração Contínua
+
+[Continuous Frustration](https://www.atlassian.com/continuous-delivery/why-agile-development-needs-continuous-delivery)
+é o que acontece na falta do Continuous Delivery, explicado por esse artigo da Atlassian.
+
+O guia de desenvolvimento técnico explora a definição de
+[Entrega de Software](https://thoughtworksinc.github.io/guia-de-desenvolvimento-tecnico/topics/Entrega_de_Software.html)
+mostrando conceitos de Entreaga Contínua e Integração Contínua.
 
 ### Benefícios de testes automatizados em relação a testes manuais
 
