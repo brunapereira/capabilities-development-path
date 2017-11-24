@@ -49,6 +49,9 @@ forma efetiva os conceitos ágeis no projeto.
 * Reconheço testes automatizados como aliados para uma ida a produção
 menos arriscada, vejo benefícios nisso.
 
+* Faço testes automatizados nas linguagens que me sinto confortável em
+desenvolver.
+
 * Entendo os diferentes tipos de testes automatizados que meu projeto pode ter.
 
 * Vejo Metodologia Ágil e Entrega Contínua como dois conceitos relacionados,
